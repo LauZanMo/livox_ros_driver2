@@ -1,3 +1,8 @@
+set(VERSION_ROS2 "ROS2" )
+set(VERSION_HUMBLE "humble" )
+set(ROS_EDITION ${VERSION_ROS2})
+set(HUMBLE_ROS ${VERSION_HUMBLE})
+
 # judge which cmake codes to use 
 if(ROS_EDITION STREQUAL "ROS1")
 
